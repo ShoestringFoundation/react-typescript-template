@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import FirebaseProvider from './utils/firebase';
+
 ReactDOM.render(
-  <React.StrictMode>
+  <FirebaseProvider>
     <App />
-  </React.StrictMode>,
+  </FirebaseProvider>,
   document.getElementById('root')
 );
 
