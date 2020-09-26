@@ -1,0 +1,5 @@
+substitution:
+  paths:
+    - .env
+    - .env.production
+    - .firebaserc
